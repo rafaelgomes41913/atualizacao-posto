@@ -2,9 +2,10 @@
 	
 	session_start();
 	include_once("conexao.php");
-	$result_posto = "SELECT * FROM tbl_posto WHERE cod_posto = '1'";
+	$result_posto = "SELECT * FROM tbl_posto WHERE COD_POSTO = '50'";
 	$resultado_posto = mysqli_query($conn, $result_posto);
 	$row_posto = mysqli_fetch_assoc($resultado_posto);
+
 ?>
 
 
